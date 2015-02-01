@@ -14,6 +14,7 @@
 		B97AC46D1A7DFAE30070DEB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97AC46C1A7DFAE30070DEB4 /* Images.xcassets */; };
 		B97AC4701A7DFAE30070DEB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97AC46E1A7DFAE30070DEB4 /* LaunchScreen.xib */; };
 		B97AC47C1A7DFAE30070DEB4 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AC47B1A7DFAE30070DEB4 /* QuizTests.swift */; };
+		B97AC4861A7E17550070DEB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AC4851A7E17550070DEB4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B97AC4751A7DFAE30070DEB4 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97AC47A1A7DFAE30070DEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97AC47B1A7DFAE30070DEB4 /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
+		B97AC4851A7E17550070DEB4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				B97AC4621A7DFAE30070DEB4 /* AppDelegate.swift */,
 				B97AC4671A7DFAE30070DEB4 /* ViewController.swift */,
+				B97AC4851A7E17550070DEB4 /* LoginViewController.swift */,
 				B97AC4691A7DFAE30070DEB4 /* Main.storyboard */,
 				B97AC46C1A7DFAE30070DEB4 /* Images.xcassets */,
 				B97AC46E1A7DFAE30070DEB4 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97AC4861A7E17550070DEB4 /* LoginViewController.swift in Sources */,
 				B97AC4681A7DFAE30070DEB4 /* ViewController.swift in Sources */,
 				B97AC4661A7DFAE30070DEB4 /* Quiz.xcdatamodeld in Sources */,
 				B97AC4631A7DFAE30070DEB4 /* AppDelegate.swift in Sources */,
@@ -409,6 +413,7 @@
 				B97AC4811A7DFAE30070DEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B97AC4821A7DFAE30070DEB4 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				B97AC4841A7DFAE30070DEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
