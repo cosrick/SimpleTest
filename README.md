@@ -1,0 +1,9 @@
+# SimpleTest
+
+做一個簡易的Quiz test
+會先從開始的頁面獲取名字
+藉由segue傳入test中
+當作答者作答後
+會用alert的方式跳出是否正確
+若是答錯就會回去原本的題目
+全部答完以後會出現finish的button
